@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <View
+        android:id="@+id/obedTop"
+        android:background="@drawable/listview_divider_canteen_top"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginTop="-1dp" />
+
+    <LinearLayout
+        android:id="@+id/obedNormal"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/listview_divider_canteen_center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/obedNormalType"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="3dp"
+            android:paddingStart="20dp"
+            android:text="Oběd 1"
+            android:textColor="@color/colorJidelna4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="--"
+            android:textColor="@color/colorJidelna2" />
+
+        <TextView
+            android:id="@+id/obedNormalName"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="20dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="20dp"
+            android:paddingStart="3dp"
+            android:text="gulas s chlebem"
+            android:textColor="@color/colorJidelna2"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/obedSelected"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/listview_divider_canteen_center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/obedSelectedType"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="3dp"
+            android:paddingStart="20dp"
+            android:text="Oběd 1"
+            android:textColor="@color/colorJidelna4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="--"
+            android:textColor="@color/colorJidelna2" />
+
+        <TextView
+            android:id="@+id/obedSelectedName"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:maxLines="1"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="gulas s chlebem"
+            android:textColor="@color/colorJidelnicek3"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            app:srcCompat="@drawable/ic_selected_obed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/obedDay"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/listview_divider_canteen_center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="3dp"
+            android:paddingStart="20dp"
+            android:text="Jídelníček na"
+            android:textColor="@color/colorJidelna2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/obedDayDay"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingStart="1dp"
+            android:text="Středa"
+            android:textColor="@color/colorJidelnicek4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="-"
+            android:textColor="@color/colorJidelna2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/obedDayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:paddingEnd="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingStart="1dp"
+            android:text="17.05.2017"
+            android:textColor="@color/colorJidelnicek4"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/obedBottom"
+        android:background="@drawable/listview_divider_canteen_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_marginTop="-1dp" />
+
+</LinearLayout>

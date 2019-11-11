@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">GvidApp</string>
+
+    <string name="navigation_drawer_open">Otevřít navigační menu</string>
+    <string name="navigation_drawer_close">Zavřít navigační menu</string>
+
+    <string name="navigation_drawer_icon">gvid_icon</string>
+    <string name="navigation_drawer_title">Gymnázium Brno, Vídeňská</string>
+    <string name="navigation_drawer_message">příspěvková organizace</string>
+
+
+    <string name="settings_ucty">Účty</string>
+    <string name="settings_ucty_moodle">Moodle</string>
+    <string name="settings_ucty_moodle_summary">Slouží k zobrazení suplování (%1$s)</string>
+    <string name="settings_ucty_sas">ŠkolaOnline</string>
+    <string name="settings_ucty_sas_summary">Slouží k zobrazení známek (%1$s)</string>
+    <string name="settings_ucty_icanteen">iCanteen</string>
+    <string name="settings_ucty_icanteen_summary">Slouží k zobrazení obědů (%1$s)</string>
+
+    <string name="settings_aktualizace">Aktualizace</string>
+    <string name="settings_aktualizace_download_all_button">Přepisovat suplování</string>
+    <string name="settings_aktualizace_download_all_button_summary">Při aktualizaci suplování se stáhnou všechny soubory, ikdyž jsou některé již staženy</string>
+    <string name="settings_aktualizace_tlacitka">Aktualizační tlačítka</string>
+    <string name="settings_aktualizace_floating_button">Modré plovoucí tlačítko</string>
+    <string name="settings_aktualizace_floating_button_summary">Zobrazí modré tlačítko v pravém dolním rohu pro aktualizaci dat v dané sekci</string>
+    <string name="settings_aktualizace_update_all_button">\"Aktualizovat vše\"</string>
+    <string name="settings_aktualizace_update_all_button_summary">Pokud je ve vysouvacím menu tlačítko skryto, přebírá tuto vlastnost modré plovoucí tlačítko</string>
+
+    <string name="settings_mezipamet">Mezipaměť</string>
+    <string name="settings_mezipamet_suply">Vymazat suplování</string>
+    <string name="settings_mezipamet_suply_summary">Vymazat starší soubory suplování</string>
+    <string name="settings_mezipamet_suply_string">Suplování smazáno!</string>
+
+    <string name="string_ok">OK</string>
+    <string name="string_login">PŘIHLÁSIT SE</string>
+    <string name="string_logout">ODEBRAT</string>
+    <string name="string_register">REGISTROVAT</string>
+    <string name="string_cancel">ZRUŠIT</string>
+    <string name="string_password">heslo</string>
+    <string name="string_username">uživatelské jméno</string>
+    <string name="string_no_login">nepřihlášeno</string>
+    <string name="string_unknown">neznámé</string>
+    <string name="string_0150">-</string>
+    <string name="string_0160"> </string>
+    <string name="string_0160x3">   </string>
+    <string name="string_nothink">nic nenalezeno</string>
+    <string name="string_loading">načítání&#8230;</string>
+    <string name="string_already_updating">Aktualizace již probíhá&#8230;</string>
+    <string name="string_already_loggingin">Přihlašování již probíhá&#8230;</string>
+    <string name="string_no_permission">Oprávnění k přístupu do úložiště se nepodařilo získat! Aplikace pravděpodobně nebude správně fungovat!</string>
+    <string name="string_permission_ok">Oprávnění k přístupu do úložiště se podařilo získat!</string>
+
+    <string name="dialog_nothing">Vyplňte všechna pole!</string>
+    <string name="dialog_logout_title">%1$s účet</string>
+    <string name="dialog_logout_message">Chcete odebrat %1$s účet z aplikace?</string>
+
+    <string name="dialog_login_bad_data">Přihlášení se nezdařilo!\nPravděpodobně zadané údaje nesouhlasí.</string>
+    <string name="dialog_login_loggigin">Přihlašuji&#8230;</string>
+    <string name="dialog_login_registering">Registruji&#8230;</string>
+    <string name="dialog_login_successful">Přihlášení bylo úspěšné.</string>
+    <string name="dialog_login_unsuccessful">Přihlášení bylo neúspěšné!</string>
+    <string name="dialog_login_moodle_registration_title">Moodle suplování</string>
+    <string name="dialog_login_moodle_registration_message">Nejste registrováni v kurzu suplování.\nChcete zaregistrovat?</string>
+
+    <string name="error_any_webbrowser">Nemáte nainstalovaný žadný webový prohlížeč!</string>
+    <string name="error_any_pdfreader">Nemáte nainstalovaný žadný prohlížeč pdf souborů!</string>
+    <string name="pdfreader">Otevřít soubor</string>
+
+    <string name="request_error_no_connection">Nejste připojeni k internetu!</string>
+    <string name="request_error_unknown_host">Nelze se připojit k serveru!</string>
+    <string name="request_error_timeout">Spojení vypršelo!</string>
+    <string name="request_error_code">Spojení selhalo: %1$d</string>
+    <string name="request_error_unknown">Spojení selhalo!</string>
+    <string name="request_error">Chyba: %1$s</string>
+    <string name="request_error_parsing">Chyba parsování!</string>
+    <string name="request_error_bad_login_data">Přihlašovací údaje nesouhlasí! Změňte své údaje v nastavení.</string>
+    <string name="request_error_moodle_suply_not_registered">Nejsi registrováni v kurzu suplování na Moodle!</string>
+
+
+    <string name="aktuality_noarticle">Nebyly nalezeny žádné články!</string>
+    <string name="aktuality_nologin">Nejste přihlášeni v aplikaci!</string>
+    <string name="aktuality_update">Aktualizuji&#8230;</string>
+    <string name="aktuality_updated">Aktualizováno!</string>
+
+    <string name="suplovani_latest">Nejnovější suplování</string>
+    <string name="suplovani_old">Starší suplování</string>
+    <string name="suplovani_nofile">Nebyly nalezeny žádné soubory se suplováním!</string>
+    <string name="suplovani_updated">Suplování aktualizováno: %1$d/%2$d</string>
+
+    <string name="obedy_kredit">kredit: </string>
+    <string name="obedy_spotreba">spotřeba: </string>
+    <string name="obedy_null">0 Kč</string>
+    <string name="obedy_tab1">Jídelníček</string>
+    <string name="obedy_tab2">Objednávání</string>
+    <string name="obedy_tab3">Burza</string>
+    <string name="obedy_last_update">Poslední aktualizace: </string>
+    <string name="obedy_nologin">Nejste přihlášeni! Stáhne se jen jídelníček.</string>
+    <string name="obedy_fail">Příkaz selhal!</string>
+
+    <string name="znamky_tab1">Podle data zadání</string>
+    <string name="znamky_tab2">Po předmětech</string>
+    <string name="znamky_tab3">Čtvrtletní a pololetní hodnocení</string>
+    <string name="znamky_prumer">Vážený průměr %1$s:</string>
+
+    <string name="updateall_updated">Úspěšně aktualizováno %1$d ze 4</string>
+
+    <string name="button_next">---&#62;</string>
+    <string name="button_back">&#60;---</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C65D1</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#5B99E6</color>
+    <color name="colorDefault">#EEEEEE</color>
+    <color name="colorDefault2">#FAFAFA</color>
+    <color name="colorGvid">#172983</color>
+    <color name="colorAktualityBlue">#3366CC</color>
+    <color name="colorMoodleGrey">#666666</color>
+    <color name="colorMoodleGrey2">#EEEEEE</color>
+    <color name="colorMoodleBlue">#0066cc</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorPdfRed">#e74c3c</color>
+    <color name="colorJidelna">#f1f1f1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorJidelna2">#2d2d2d</color>
+    <color name="colorJidelna3">#99c21d</color>
+    <color name="colorJidelna4">#1b75bb</color>
+    <color name="colorJidelnicek">#ffffff</color>
+    <color name="colorJidelnicek2">#f1f1f1</color>
+    <color name="colorJidelnicek3">#008000</color>
+    <color name="colorJidelnicek4">#af1014</color>
+    <color name="colorZnamky0">#ef6c00</color>
+    <color name="colorZnamky">#ffa500</color>
+    <color name="colorZnamky2">#ffdead</color>
+    <color name="colorZnamky3">#ffefd5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorObjednavaniZakazaneBorder">#e4d88f</color>
+    <color name="colorObjednavaniZakazane">#ffdede</color>
+    <color name="colorObjednavaniObjednaneBorder">#9deaea</color>
+    <color name="colorObjednavaniObjednane">#c9daf8</color>
+    <color name="colorObjednavaniObjednatBorder">#93c893</color>
+    <color name="colorObjednavaniObjednat">#bedebe</color>
+    <color name="colorObjednavaniText">#333333</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/drawerGroup">
+        <item
+            android:id="@+id/nav_aktuality"
+            android:icon="@drawable/ic_drawer_aktuality"
+            android:title="Aktuality" />
+        <item
+            android:id="@+id/nav_suplovani"
+            android:icon="@drawable/ic_drawer_suplovani"
+            android:title="Suplování" />
+        <item
+            android:id="@+id/nav_znamky"
+            android:icon="@drawable/ic_drawer_znamky"
+            android:title="Známky" />
+        <item
+            android:id="@+id/nav_obedy"
+            android:icon="@drawable/ic_drawer_obedy"
+            android:title="Obědy" />
+        <item
+            android:id="@+id/nav_nastaveni"
+            android:icon="@drawable/ic_drawer_nastaveni"
+            android:title="Nastavení" />
+        <item
+            android:id="@+id/nav_aktualizace"
+            android:icon="@drawable/ic_drawer_aktualizace"
+            android:title="Aktualizovat vše" />
+    </group>
+    <item android:title="Web">
+        <menu>
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/ic_drawer_web"
+                android:title="gvid.cz" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_drawer_facebook"
+                android:title="fb.com/gvidenska" />
+        </menu>
+    </item>
+
+</menu>

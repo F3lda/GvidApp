@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/row_zahlavi"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorZnamky"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Datum"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Pře"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Z"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="3dp"
+            android:paddingLeft="3dp"
+            android:paddingEnd="3dp"
+            android:paddingRight="3dp"
+            android:text="Váha"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Poznámka"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_znamka"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorZnamky3"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/row_znamka_datum"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="19.21.1995"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_predmet"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="M"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_znamka"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="1"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_vaha"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="3dp"
+            android:paddingLeft="3dp"
+            android:paddingEnd="3dp"
+            android:paddingRight="3dp"
+            android:text="2,25"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_popis"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="test"
+            android:textColor="@android:color/black"
+            android:ellipsize="end"
+            android:maxLines="1">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_znamka_2"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/row_znamka_2_datum"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="19.21.1995"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_2_predmet"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="M"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_2_znamka"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="1"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_2_vaha"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="3dp"
+            android:paddingLeft="3dp"
+            android:paddingEnd="3dp"
+            android:paddingRight="3dp"
+            android:text="2"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_znamka_2_popis"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="test"
+            android:textColor="@android:color/black"
+            android:ellipsize="end"
+            android:maxLines="1">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_znamka_prumer"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorZnamky3"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="0dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="0dp"
+            android:paddingStart="3dp"
+            android:text="Vážený průměr"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/row_znamka_prumer_predmet"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="3dp"
+            android:paddingStart="0dp"
+            android:text="Zsv"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/row_znamka_prumer_prumer"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="2.89"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_znamka_2_prumer"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="0dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="0dp"
+            android:paddingStart="3dp"
+            android:text="Vážený průměr"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/row_znamka_2_prumer_predmet"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="3dp"
+            android:paddingStart="0dp"
+            android:text="M"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/row_znamka_2_prumer_prumer"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="2.89"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_zahlavi_hodnoceni"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorZnamky"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Předmět"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Půměr"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Čtvrtletí"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Pololetí"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_hodnoceni_2"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/row_hodnoceni_2_predmet"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Ivt"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_hodnoceni_2_prumer"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="4.00"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_hodnoceni_2_ctvrtleti"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="1.4"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_hodnoceni_2_pololeti"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="4.55"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_hodnoceni"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:background="@color/colorZnamky3"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/row_hodnoceni_predmet"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="Zsv"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_hodnoceni_prumer"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="8.45"
+            android:textColor="@android:color/black"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_hodnoceni_ctvrtleti"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="0.1"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="21dp"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/row_hodnoceni_pololeti"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingEnd="3dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingStart="3dp"
+            android:text="3.1"
+            android:textColor="@android:color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

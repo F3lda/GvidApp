@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_ucty">
+        <Preference
+            android:key="moodle_login"
+            android:title="@string/settings_ucty_moodle"
+            android:summary="@string/settings_ucty_moodle_summary"/>
+        <Preference
+            android:key="sas_login"
+            android:title="@string/settings_ucty_sas"
+            android:summary="@string/settings_ucty_sas_summary"/>
+        <Preference
+            android:key="icanteen_login"
+            android:title="@string/settings_ucty_icanteen"
+            android:summary="@string/settings_ucty_icanteen_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_aktualizace" >
+        <CheckBoxPreference
+            android:key="download_all_button"
+            android:defaultValue="true"
+            android:title="@string/settings_aktualizace_download_all_button"
+            android:summary="@string/settings_aktualizace_download_all_button_summary">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_aktualizace_tlacitka" >
+        <SwitchPreference
+            android:key="floating_button_update"
+            android:defaultValue="true"
+            android:title="@string/settings_aktualizace_floating_button"
+            android:summary="@string/settings_aktualizace_floating_button_summary"/>
+
+        <CheckBoxPreference
+            android:key="update_all_button"
+            android:dependency="floating_button_update"
+            android:defaultValue="true"
+            android:title="@string/settings_aktualizace_update_all_button"
+            android:summary="@string/settings_aktualizace_update_all_button_summary">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_mezipamet">
+        <Preference
+            android:key="memory_suply"
+            android:title="@string/settings_mezipamet_suply"
+            android:summary="@string/settings_mezipamet_suply_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
